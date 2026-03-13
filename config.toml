@@ -4,7 +4,7 @@ theme = "DeepThought"
 
 build_search_index = false
 title = "水天一色的小屋"
-description = "水天一色的记录站"
+description = "水天一色的个人博客"
 default_language = "zh-cn"
 
 taxonomies = [
