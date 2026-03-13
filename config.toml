@@ -1,4 +1,4 @@
-base_url = "https://hello-rust.github.io"
+base_url = "https://waterfast.github.io/"
 compile_sass = false
 theme = "DeepThought"
 
