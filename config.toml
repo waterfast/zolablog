@@ -59,7 +59,7 @@ navbar_items = [
 
 [extra.author]
 name = "水天一色"
-avatar = "$BASE_URL/public/images/water_avatar.png"
+avatar = "images/avatar.png"
 
 [extra.social]
 facebook = "RatanShreshtha"
