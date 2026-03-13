@@ -1,4 +1,4 @@
-base_url = "https://waterfast.github.io/zolablog"
+base_url = "https://waterfast.github.io"
 compile_sass = false
 theme = "DeepThought"
 
