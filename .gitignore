@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Zola build output
+public/
+
+# Lock
+.hugo_build.lock

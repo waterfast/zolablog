@@ -1,0 +1,88 @@
+base_url = "https://hello-rust.github.io"
+compile_sass = false
+theme = "DeepThought"
+
+build_search_index = false
+title = "水天一色的小屋"
+description = "水天一色的记录站"
+default_language = "zh-cn"
+
+taxonomies = [
+    { name = "categories", feed = true, paginate_by = 10 },
+    { name = "tags", feed = true, paginate_by = 10 },
+]
+
+[markdown]
+highlight_code = true
+# [extra]
+#feather_header_image = "/hellorust.svg"
+#feather_donate_link = "https://github.com/sponsors/mre/"
+
+[link_checker]
+# Skip link checking for external URLs that start with these prefixes
+skip_prefixes = [
+    "http://[2001:db8::]/",
+]
+
+# Skip anchor checking for external URLs that start with these prefixes
+skip_anchor_prefixes = [
+    "https://caniuse.com/",
+]
+
+
+
+
+[extra]
+katex.enabled = true
+katex.auto_render = true
+
+chart.enabled = true
+mermaid.enabled = true
+galleria.enabled = true
+
+navbar_items = [
+    { code = "en", nav_items = [
+        { url = "$BASE_URL/", name = "Home" },
+        { url = "$BASE_URL/posts", name = "Posts" },
+        { url = "$BASE_URL/docs", name = "Docs" },
+        { url = "$BASE_URL/tags", name = "Tags" },
+        { url = "$BASE_URL/categories", name = "Categories" },
+    ] },
+    { code = "zh-cn", nav_items = [
+        { url = "$BASE_URL/", name = "首页" },
+        { url = "$BASE_URL/posts", name = "文章" },
+        { url = "$BASE_URL/docs", name = "文档" },
+        { url = "$BASE_URL/tags", name = "标签" },
+        { url = "$BASE_URL/categories", name = "分类" },
+    ] },
+]
+
+[extra.author]
+name = "水天一色"
+avatar = "images/water_avatar.png"
+
+[extra.social]
+facebook = "RatanShreshtha"
+github = "RatanShreshtha"
+gitlab = "ratanshreshtha"
+keybase = "RatanShreshtha"
+linkedin = "ratanshreshtha"
+stackoverflow = "3728911"
+email = "deepthought@gmail.com"
+twitter = "RatanShreshtha"
+reddit = "RatanShreshtha"
+instagram = "RatanShreshtha"
+mastodon_username = "@RatanShreshtha"
+mastodon_server = "mastodon.social"
+discord = "RatanShreshtha"
+behance = "RatanShreshtha"
+youtube = "RatanShreshtha"
+tumblr = "RatanShreshtha"
+twitch = "RatanShreshtha"
+dev = "RatanShreshtha"
+bitbucket = "RatanShreshtha"
+medium = "RatanShreshtha"
+soundcloud = "RatanShreshtha"
+googleplay = "RatanShreshtha"
+orcid = "RatanShreshtha"
+google_scholar = "RatanShreshtha"
